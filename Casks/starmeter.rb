@@ -1,11 +1,11 @@
 cask "starmeter" do
   arch arm: "apple-silicon", intel: "intel"
 
-  version "6.0.1"
-  sha256 arm:   "f6083657b174903a360926689ef4c701796ece6a152d712b01cbec9ba1dc86d9",
-         intel: "238a09c0e7b868e87288bbe984d6f41473f2ea1fb0f3b598a7ce997168c745c3"
+  version "6.0.2"
+  sha256 arm:   "7a20b0fcca4a982185219f2b2bc4afea3ec38b24c3fc6854fee1e88c9f6405d9",
+         intel: "af366412db434629ed531decdf6867625ab23db66f5bfee5daa012a9be2d31eb"
 
-  url "https://github.com/timecatbit/starmeter/releases/download/v#{version}/token-monitor-#{version}-macos-#{arch}.dmg"
+  url "https://github.com/timecatbit/starmeter/releases/download/v#{version}/starmeter-#{version}-macos-#{arch}.dmg"
   name "Starmeter"
   desc "Menu bar monitor for AI coding tools' token usage, costs and limits"
   homepage "https://github.com/timecatbit/starmeter"
