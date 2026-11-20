@@ -1,9 +1,9 @@
 cask "starmeter" do
   arch arm: "apple-silicon", intel: "intel"
 
-  version "6.0.2"
-  sha256 arm:   "7a20b0fcca4a982185219f2b2bc4afea3ec38b24c3fc6854fee1e88c9f6405d9",
-         intel: "af366412db434629ed531decdf6867625ab23db66f5bfee5daa012a9be2d31eb"
+  version "6.0.4"
+  sha256 arm:   "ed288df5d1d9c5e8843c8536dc9bc405c2e41e3f93a7465c4156d2e65dcd1cca",
+         intel: "a8aff98b7db24153de2765ba8ee7ebe7e606809e52874bc03cdb5cc07d40ae6e"
 
   url "https://github.com/timecatbit/starmeter/releases/download/v#{version}/starmeter-#{version}-macos-#{arch}.dmg"
   name "Starmeter"
