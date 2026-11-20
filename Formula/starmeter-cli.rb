@@ -1,7 +1,7 @@
 class StarmeterCli < Formula
   desc "Command-line view of AI coding tools' token usage, costs and limits"
   homepage "https://github.com/timecatbit/starmeter"
-  version "6.0.6"
+  version "6.0.7"
   license "MIT"
 
   livecheck do
@@ -10,14 +10,14 @@ class StarmeterCli < Formula
   end
 
   on_macos do
-    url "https://github.com/timecatbit/starmeter/releases/download/v6.0.6/starmeter-6.0.6-macos-cli.tar.gz"
-    sha256 "57f198bcc0fda3cc1675b3375a570476acbe9ba1444de3473fdaa3b687fd1334"
+    url "https://github.com/timecatbit/starmeter/releases/download/v6.0.7/starmeter-6.0.7-macos-cli.tar.gz"
+    sha256 "99a4a6b58c3e97b3b749a86c83bc33f06d8843c458db97fe012fb010f9cde903"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/timecatbit/starmeter/releases/download/v6.0.6/starmeter-6.0.6-linux-x64-cli.tar.gz"
-      sha256 "0ca433d37d9242a3c0e5ae6b2ca4318b51acd9de477a10151ebabb41ae044859"
+      url "https://github.com/timecatbit/starmeter/releases/download/v6.0.7/starmeter-6.0.7-linux-x64-cli.tar.gz"
+      sha256 "1e0b8692167b23d1de665ba08b0cf63dd0cd03782bd4dca650f75170f069472e"
     end
   end
 
