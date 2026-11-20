@@ -1,9 +1,9 @@
 cask "starmeter" do
   arch arm: "apple-silicon", intel: "intel"
 
-  version "6.0.0"
-  sha256 arm:   "39ca4323c314f873936861ef13fa189ea6bbc82ca6e2d6fcbcec878abab5f9d0",
-         intel: "e56def758ffbd4874add402108e1f117cc656dc10c884a28e1e77edb1de49ec2"
+  version "6.0.1"
+  sha256 arm:   "f6083657b174903a360926689ef4c701796ece6a152d712b01cbec9ba1dc86d9",
+         intel: "238a09c0e7b868e87288bbe984d6f41473f2ea1fb0f3b598a7ce997168c745c3"
 
   url "https://github.com/timecatbit/starmeter/releases/download/v#{version}/token-monitor-#{version}-macos-#{arch}.dmg"
   name "Starmeter"
